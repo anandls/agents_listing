@@ -1,4 +1,4 @@
-import AgentsList from "./AgentsList";
+import AgentsList from "./components/AgentsList";
 
 function App() {
 	return <AgentsList />;

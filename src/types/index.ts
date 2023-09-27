@@ -9,3 +9,14 @@ export type Agent = {
 export type AgentResponse = {
 	agents: Agent[];
 };
+
+export type FetchResult<T> = {
+	data: T | null;
+	loading: boolean;
+	error: Error | null;
+};
+
+export type FilterOption = {
+	value: string;
+	label: string;
+};
