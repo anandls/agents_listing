@@ -20,3 +20,7 @@ export type FilterOption = {
 	value: string;
 	label: string;
 };
+
+export type TableColumn<T> =
+	| { header: string; key: keyof T; renderer?: never }
+	| { header: string; renderer: (item: T) => React.ReactNode; key?: never };

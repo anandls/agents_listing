@@ -1,7 +1,6 @@
 export const FETCH_STATUS = {
 	LOADING: "loading",
-	SUCCESS: "success",
-	ERROR: "error",
+	ERROR: "oops an error  occurred",
 };
 
 export const LABELS = {
