@@ -1,0 +1,39 @@
+{
+	"agents": [
+		{
+			"first_name": "Ron",
+			"last_name": "Swanson",
+			"status": "online",
+			"profile": "admin",
+			"avatar": "https://static1.personality-database.com/profile_images/2843690926b44e48aa14cf9d5c567e42.png"
+		},
+		{
+			"first_name": "Andy",
+			"last_name": "Dwyer",
+			"status": "offline",
+			"profile": "agent",
+			"avatar": "https://static1.personality-database.com/profile_images/639f9049c5554c6dbad3fc1a830d63c7.png"
+		},
+		{
+			"first_name": "April",
+			"last_name": "Ludgate",
+			"status": "online",
+			"profile": "agent",
+			"avatar": "https://static1.personality-database.com/profile_images/595d80646c4a4ce19f9637859e348111.png"
+		},
+		{
+			"first_name": "Leslie",
+			"last_name": "Knope",
+			"status": "online",
+			"profile": "admin",
+			"avatar": "https://static1.personality-database.com/profile_images/2bc17487011543c882e5d5dec1006b1b.png"
+		},
+		{
+			"first_name": "Tom",
+			"last_name": "Haverford",
+			"status": "offline",
+			"profile": "agent",
+			"avatar": "https://static1.personality-database.com/profile_images/0e79b9f0795b41a4a049e4065b47860f.png"
+		}
+	]
+}

@@ -1,46 +1,61 @@
-# Getting Started with Create React App
+# Contact Center Agents Listing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project uses Create React App with TypeScript and Tailwind CSS to render a table listing of contact center agents.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This application has a primary `AgentsList` component which fetches and displays a list of agents, allowing users to filter agents based on their online/offline status.
 
-### `npm start`
+## Live Demo
 
+I have uploaded a demo to Vercel which can be accessed at [DEMO]()
+
+## Testing
+
+A test has been written for the `AgentsList` component to ensure that:
+- An online user is correctly rendered by their name.
+- An offline user is correctly rendered by their name.
+
+(Note: mock data was not used)
+
+## Setting Up & Running Locally
+
+1. **Clone the Repository:** 
+   ```bash
+   git clone https://github.com/anandls/agents_listing.git
+   ```
+
+2. **Navigate to the Directory:** 
+   ```bash
+   cd agents_listing
+   ```
+
+3. **Install Dependencies:** 
+   ```bash
+   npm install
+   ```
+
+4. **Set Up Environment Variables:** 
+   Create an `.env` file in the root directory and add the following:
+   ```
+   REACT_APP_API_ENDPOINT=the_endpoint
+   ```
+
+5. **Run the App Locally:** 
+   ```bash
+   npm start
+   ```   
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+6. **Run Tests:** 
+   To ensure everything works as expected, run:
+   ```bash
+   npm test
+   ```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. **Run Build:** 
+   Builds the app for production to the `build` folder
+   ```bash
+   npm run build
+   ```
