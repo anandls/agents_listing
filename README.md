@@ -42,19 +42,19 @@ A test has been written for the `AgentsList` component to ensure that:
    ```
 
 5. **Run the App Locally:** 
+    Runs the app in the development mode.\
+    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
    ```bash
    npm start
    ```   
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-6. **Run Tests:** 
+7. **Run Tests:** 
    To ensure everything works as expected, run:
    ```bash
    npm test
    ```
 
-7. **Run Build:** 
+8. **Run Build:** 
    Builds the app for production to the `build` folder
    ```bash
    npm run build
